@@ -26,13 +26,21 @@ body {
 }
 
 .p-y-50px {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .like-button {
   padding: 6px 15px;
   background-color: white;
   border-radius: 20px;
+}
+
+.flex-displaye {
+  display: flex;
+}
+
+.margin-r-10px {
+  margin-right: 10px;
 }
 
 /* header  */
@@ -99,15 +107,26 @@ div.nav-middle > ul {
 
 
 .hero {
-  background-color: #00008B;
+  background-image: url("../img/jumbo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
 }
 
 .block-main-top {
-  background-color: #EE82EE;
+  width: 70%;
+  max-width: 800px;
   margin: 0 auto;
-  width: 500px;
-  /* debug */
-  height: 100%;
+  text-align: center;
+}
+
+div.block-main-top p {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 580px;
+  margin-bottom: 15px;
 }
 
 .main-middle-top,
