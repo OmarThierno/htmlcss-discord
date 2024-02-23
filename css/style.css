@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Common  */
 body {
   margin-bottom: 40px;
@@ -41,6 +45,10 @@ body {
 
 .margin-r-10px {
   margin-right: 10px;
+}
+
+.text-align-end {
+  text-align: end;
 }
 
 /* header  */
@@ -103,9 +111,6 @@ div.nav-middle > ul {
 }
 
 /* main  */
-
-
-
 .hero {
   background-image: url("../img/jumbo.png");
   background-position: center;
@@ -127,6 +132,27 @@ div.block-main-top p {
   font-size: 1.2rem;
   width: 580px;
   margin-bottom: 15px;
+}
+
+.block-middle-top .box-blue img,
+.block-middle-middle .box-blue img,
+.block-middle-bottom .box-blue img {
+  width: 350px;
+}
+
+.block-middle-top .box-pink h3,
+.block-middle-middle .box-pink h3,
+.block-middle-bottom .box-pink h3 {
+  font-size: 1.7rem;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.block-middle-top .box-pink p,
+.block-middle-middle .box-pink p,
+.block-middle-bottom .box-pink p {
+  font-size: 0.9rem;
+  width: 250px;
 }
 
 .main-middle-top,
@@ -156,15 +182,16 @@ div.block-main-top p {
 }
 
 .box-blue {
-  background-color: #1E90FF;
   width: 60%;
   height: 100%;
+  padding: 20px;
 }
 
 .box-pink {
-  background-color: #FFC0CB;
   width: 40%;
   height: 100%;
+
+  padding: 35px 0;
 }
 
 
