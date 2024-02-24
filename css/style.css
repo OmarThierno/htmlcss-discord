@@ -25,12 +25,13 @@ body {
 
 .container {
   width: 80%;
-  max-width: 900px;
+  max-width: 1300px;
   margin: 0 auto;
+  padding: 10px 0;
 }
 
 .p-y-50px {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .like-button {
@@ -48,6 +49,7 @@ body {
   margin-right: 10px;
 }
 
+
 .text-align-end {
   text-align: end;
 }
@@ -58,6 +60,7 @@ body {
 
 .bg-viola {
   background-color: #7289DA;
+  color: white;
 }
 
 /* header  */
@@ -142,18 +145,12 @@ div.block-main-top p {
   color: white;
 }
 
-.block-middle-top .box-blue img,
-.block-middle-middle .box-blue img,
-.block-middle-bottom .box-blue img {
-  width: 500px;
-}
-
 .block-middle-top .box-pink h3,
 .block-middle-middle .box-pink h3,
 .block-middle-bottom .box-pink h3 {
-  font-size: 1.7rem;
-  width: 200px;
-  margin-bottom: 10px;
+  font-size: 2.5rem;
+  width: 245px;
+  margin-bottom: 45px;
 }
 
 .main-bottom .block-bottom h3,
@@ -165,13 +162,15 @@ div.block-main-top p {
 .main-bottom .block-bottom > div {
   background-image: url("../img/stars.svg");
   background-position: center;
+  margin-top: 20px;
 }
 
 .block-middle-top .box-pink p,
 .block-middle-middle .box-pink p,
 .block-middle-bottom .box-pink p {
-  font-size: 0.9rem;
-  width: 250px;
+  font-size: 1.8rem;
+  width: 550px;
+  line-height: 40px;
 }
 
 .main-bottom .block-bottom  p {
@@ -180,8 +179,13 @@ div.block-main-top p {
   margin: 0 auto;
 }
 
+.main-middle-middle {
+  background-color: #F6F6F6;
+}
+
 .main-bottom {
   text-align: center;
+  background-color: #F6F6F6;
 }
 
 .block-middle-top,
@@ -195,20 +199,11 @@ div.block-main-top p {
 
 .box-blue {
   width: 60%;
-  padding: 20px;
 }
 
 .box-pink {
+  padding-top: 30px;
   width: 40%;
-  padding: 35px 0;
-}
-
-
-.box {
-  margin: 0 auto;
-  border: 2px dashed black;
-  width: 600px;
-  height: 150px;
 }
 
 /* footer  */
@@ -222,8 +217,6 @@ div.block-main-top p {
   display: flex;
   justify-content: center;
   align-items: start;
-  /* height: 90%; */
-  /* padding: 10px 0 20px; */
 }
 
 .box-dark-pink {
@@ -250,8 +243,11 @@ div.block-main-top p {
 }
 
 .simbol {
-  width: 10px;
   color: white;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
 .mini-box-green-footer {
@@ -264,10 +260,14 @@ div.block-main-top p {
 }
 
 .footer-list {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* aside footer  */
+.aside {
+  padding: 15px 0 40px;
+}
+
 .block-bottom-footer {
   display: flex;
   justify-content: space-between;
